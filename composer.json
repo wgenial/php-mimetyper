@@ -1,5 +1,5 @@
 {
-    "name": "adrienrn/php-mimetyper",
+    "name": "wgenial/php-mimetyper",
     "description": "PHP mime type and extension mapping library: compatible with Symfony, powered by jshttp/mime-db",
     "require": {
         "dflydev/apache-mime-types": "^1.0"
