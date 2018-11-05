@@ -1,6 +1,6 @@
 # php-mimetyper
 
-PHP mime type and extension mapping library: built with [jshttp/mime-db](http://github.com/jshttp/mime-db), compatible with Symfony and Laravel.
+PHP mime type and extension mapping library: built with [jshttp/mime-db](http://github.com/jshttp/mime-db).
 
 ```php
 use MimeTyper\Repository\MimeDbRepository;
@@ -17,7 +17,9 @@ $mimeRepository->findType("js"); // 'application/javascript'
 
 > The most complete and up-to-date mime type mapping for PHP!
 
-The goal is to provide a complete and up-to-date mime types mapping for PHP and build a comprehensive and simple interface for PHP. This package is heavily inspired from [dflydev](https://github.com/dflydev/dflydev-apache-mime-types) work and extends it.
+The goal is to provide a complete and up-to-date mime types mapping for PHP and build a comprehensive and simple interface for PHP.
+
+This package is heavily inspired from [dflydev/dflydev-apache-mime-types](https://github.com/dflydev/dflydev-apache-mime-types) and [adrienrn/php-mimetyper](https://github.com/adrienrn/php-mimetyper) work and extends it.
 
 ## Mime types mapping, the right way.
 
