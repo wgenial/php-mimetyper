@@ -5,7 +5,7 @@ namespace MimeTyper\Symfony;
 if (class_exists("Symfony\Component\HttpFoundation\File\MimeType\ExtensionGuesserInterface")) {
     class_alias(
         "Symfony\Component\HttpFoundation\File\MimeType\ExtensionGuesserInterface",
-        "Mimetyper\Symfony\ExtensionGuesserInterface"
+        "MimeTyper\Symfony\ExtensionGuesserInterface"
     );
 } else {
     /*
@@ -14,7 +14,7 @@ if (class_exists("Symfony\Component\HttpFoundation\File\MimeType\ExtensionGuesse
      */
     class_alias(
         "Madhouse\HttpFoundation\File\MimeType\ExtensionGuesserInterface",
-        "Mimetyper\Symfony\ExtensionGuesserInterface"
+        "MimeTyper\Symfony\ExtensionGuesserInterface"
     );
 }
 
