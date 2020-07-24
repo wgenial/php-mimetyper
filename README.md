@@ -32,7 +32,7 @@ This library uses [jshttp/mime-db](http://github.com/jshttp/mime-db) as its defa
 
 ## Custom mime types and custom repositories
 
-Some custom types (aliases really) are maintained locally too, in the same JSON format as jshttp/mime-db. 
+Some custom types (aliases really) are maintained locally too, in the same JSON format as jshttp/mime-db.
 
 ```php
 
@@ -108,10 +108,9 @@ It all ends up inspecting the file using [finfo](http://php.net/manual/en/functi
   The Hoa package to deal with mime types. Uses `mime.types` Apache file (local fallback) and relies on static methods.
 
 - [karwana/php-mime](https://github.com/karwana/php-mime)
-  
+
   Uses `mime.types` Apache file and finfo, requires PHP >=5.4.
 
 - [PEAR/MIME_Type](https://github.com/pear/MIME_Type)
 
   Detect the mime type of a file: uses internally finfo_file, mime_content_type or file command to guess the mime type.
-

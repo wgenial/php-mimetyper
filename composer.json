@@ -1,19 +1,19 @@
 {
-    "name": "wgenial/php-mimetyper",
-    "description": "PHP mime type and extension mapping library: compatible with Symfony, powered by jshttp/mime-db",
-    "require": {
-        "dflydev/apache-mime-types": "^1.0"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Hussard",
-            "email": "adrien.ricartnoblet@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "MimeTyper\\": "src/"
-        }
+  "name": "wgenial/php-mimetyper",
+  "description": "PHP mime type and extension mapping library: compatible with Symfony, powered by jshttp/mime-db",
+  "require": {
+    "dflydev/apache-mime-types": "^1.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hussard",
+      "email": "adrien.ricartnoblet@gmail.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MimeTyper\\": "src/"
+    }
+  }
 }
