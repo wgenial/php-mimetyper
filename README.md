@@ -2,6 +2,10 @@
 
 PHP mime type and extension mapping library: built with [jshttp/mime-db](http://github.com/jshttp/mime-db).
 
+
+[![Packagist](https://img.shields.io/packagist/v/wgenial/php-mimetyper.svg?maxAge=900)](https://packagist.org/packages/wgenial/php-mimetyper)
+[![GitHub license](https://img.shields.io/github/license/wgenial/php-mimetyper.svg)](https://github.com/wgenial/php-mimetyper/blob/master/LICENSE)
+
 ```php
 use MimeTyper\Repository\MimeDbRepository;
 
